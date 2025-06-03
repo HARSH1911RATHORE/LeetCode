@@ -11,9 +11,10 @@ class Solution:
         return ((s>='A' and s<='Z') or (s>='a' and s<='z') or (s>='0' and s<='9'))
     
     def tolow(self, s):
-        if (s>='A' and s<='Z'):
-            return (s-'A'+'a')
-        return s
+        # if (s>='A' and s<='Z'):
+        #     return (s-'A'+'a')
+        # return s
+        return s.lower()
 
     def validPalindrome(self, s: str) -> bool:
         l=0
